@@ -1,0 +1,35 @@
+{
+    "name": "xdm-jest",
+    "description": "TODO",
+    "version": "0.0.0",
+    "author": {
+        "name": "Michael Novotny",
+        "email": "manovotny@gmail.com",
+        "url": "https://manovotny.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manovotny/xdm-jest.git"
+    },
+    "keywords": [
+        "jest",
+        "xdm"
+    ],
+    "engines": {
+        "node": ">=13.0.0"
+    },
+    "type": "module",
+    "exports": "./index.js",
+    "scripts": {
+        "start": "node example.js",
+        "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+    },
+    "dependencies": {
+        "xdm": "2.0.0"
+    },
+    "devDependencies": {
+        "cross-env": "7.0.3",
+        "jest": "27.0.6"
+    }
+}
